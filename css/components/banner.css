@@ -1,0 +1,12 @@
+.banner {
+	background-image: url("../../images/banner.jpeg");
+	color: whitesmoke;
+	padding: 200px;
+	background-size: cover;
+	background-position: center;
+	margin: 50px;
+}
+
+.banner h2 {
+	text-align: center;
+}

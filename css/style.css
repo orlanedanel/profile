@@ -1,0 +1,79 @@
+@import url("components/boites.css");
+@import url("components/container.css");
+@import url("components/banner.css");
+
+
+body{
+    background-color: #DFF6FF;
+    text-align: center;
+    line-height: 1.8;
+}
+
+h1 {
+    padding: 40px;
+    font-size: 50px;
+    color:  #256D85;
+}
+
+h2 {
+    front-size:  25px;
+    color: #316B83;
+    margin:  3px;
+    padding:  3px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+img{
+    width: 400px;
+    border-radius: 500px;
+    border: 10px solid #316B83;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+     color: #256D85;;
+     transition: 0.5s;
+}
+
+
+.coordonées {
+    font-size: 15px;
+    display: grid;
+    line-height: 10em;
+}
+
+.réseaux{
+    font-size: 15px;
+    display: grid;
+}
+
+    @media (max-device-width: 540px) {
+        .container{
+            display: block;
+        }
+
+        .boite2{
+            margin-top: 20px;
+        }
+
+        .coordonées{
+            display: grid;
+            padding: 20px;
+            line-height: 2em;
+
+        }
+        .réseaux{
+            font-size: 40px;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+}

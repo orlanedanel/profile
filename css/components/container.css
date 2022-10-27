@@ -1,0 +1,19 @@
+.container {
+  border-radius: 10px;
+  border: solid #316B83 4px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.container2 {
+  margin: 20px;
+  padding: 20px;
+  line-height: 2em;
+  justify-content: space-between;
+}
+
+
+

@@ -1,0 +1,28 @@
+.boite1 {
+  border: solid #F9F9F9 6px;
+  border-radius: 8px;
+  margin: 1px;
+  padding: 10px;
+}
+
+.boite2 {
+  border: solid #F9F9F9 6px;
+  border-radius: 8px;
+  margin: 1px;
+  padding: 10px;
+}
+
+.boite3 {
+  border: 0px;
+  margin: 10px;
+  padding: 10px;
+  line-height: 2em;
+}
+
+#boite4 {
+	display: flex;
+	text-align: justify;
+	padding: auto;
+	margin: 30px;
+	align-items: center;
+}
